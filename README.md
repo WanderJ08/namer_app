@@ -1,16 +1,22 @@
-# namer_app_20210990
+# Namer App
 
-A new Flutter project.
+Namer App es una aplicación Flutter sencilla que permite a los usuarios generar nombres aleatorios y guardarlos como favoritos. La aplicación utiliza el paquete `english_words` para generar pares de palabras, `provider` para la gestión de estado y `Material 3` para un diseño moderno e intuitivo.
 
-## Getting Started
+## Características
 
-This project is a starting point for a Flutter application.
+- **Generación de nombres aleatorios**: Muestra pares de palabras aleatorios en cada pulsación del botón "Next".
+- **Favoritos**: Los usuarios pueden guardar sus pares de palabras favoritos y ver una lista de ellos.
+- **Navegación intuitiva**: Utiliza una `NavigationRail` que permite al usuario cambiar entre la pantalla principal de generación y la pantalla de favoritos.
 
-A few resources to get you started if this is your first Flutter project:
+## Requisitos
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- Paquetes adicionales:
+  - `english_words`
+  - `provider`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Instala los paquetes necesarios ejecutando:
+
+```bash
+flutter pub get
+```
